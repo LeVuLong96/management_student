@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        .studentTable {
+            border-collapse:collapse;
+        }
+        td {
+            border: 1px solid black;
+            width: 150px;
+            height: 20px;
+        }
+        #stt {
+            width: 50px;
+        }
+        #edit {
+
+        }
+        td:hover{
+            background-color:#ddd;
+            cursor:pointer;
+        }
+        #edit {
+        ;
+        }
+    </style>
+</head>
+<body>
+
+
+<table class="studentTable">
+    <tr>
+        <td id="stt">stt</td>
+        <td id="name">Ten</td>
+        <td id="address">địa chỉ</td>
+        <td id="scores">điểm</td>
+        <td id="Class">lớp</td>
+        <td id="sex">giới tính</td>
+        <td id="edit"></td>
+    </tr>
+    <tbody>
+    {students}
+    </tbody>
+
+</table><br>
+<a href="/create">Thêm</a>
+</body>
+</html>
